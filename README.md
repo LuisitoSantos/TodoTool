@@ -21,7 +21,7 @@ También puedes publicar los archivos estáticos con la opción de carga directa
 
 En `app.js`, registra una herramienta con `add(categoría, nombre, descripción, icono, campos, función)`. Las categorías disponibles son `conversores`, `calculadoras` y `utilidades`. Las funciones de cálculo reciben los campos del formulario como objeto y devuelven el texto del resultado.
 
-La página incluye una unidad Native Banner de Adsterra en el espacio `#ad-slot`.
+La página incluye una unidad Native Banner de Adsterra en `#ad-slot` y el mismo banner estático de 160 × 300 en ambos laterales (`#ad-rail-left` y `#ad-rail-right`). Adsterra indica que las impresiones de un mismo código repetido se cuentan una vez por visitante único.
 
 ## Publicidad
 
