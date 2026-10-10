@@ -1,0 +1,24 @@
+# TodoTool
+
+Sitio estático en español con conversores, calculadoras y utilidades que funcionan en el navegador. No requiere servidor, dependencias ni compilación.
+
+## Publicar en Cloudflare Pages
+
+1. Sube este proyecto a un repositorio Git.
+2. En Cloudflare, abre **Workers & Pages → Create application → Pages → Connect to Git** y selecciona el repositorio.
+3. Deja vacío el comando de compilación y configura ` / ` como directorio de salida.
+4. Publica. Para una actualización, sube los cambios al repositorio conectado.
+
+También puedes publicar los archivos estáticos con la opción de carga directa de Pages. La web se sirve desde `index.html` en la raíz.
+
+## Estructura
+
+- `index.html`: estructura y textos de la página.
+- `styles.css`: estilos adaptables a móvil y escritorio.
+- `app.js`: catálogo de herramientas y lógica que se ejecuta localmente en el navegador.
+
+## Añadir herramientas
+
+En `app.js`, registra una herramienta con `add(categoría, nombre, descripción, icono, campos, función)`. Las categorías disponibles son `conversores`, `calculadoras` y `utilidades`. Las funciones de cálculo reciben los campos del formulario como objeto y devuelven el texto del resultado.
+
+La página incluye un espacio visual reservado para publicidad. Antes de activar un proveedor de anuncios, sustituye ese espacio por su integración y añade las páginas informativas y de privacidad que correspondan a la configuración del sitio.
