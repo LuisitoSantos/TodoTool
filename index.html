@@ -18,17 +18,17 @@
     <nav class="nav-links" aria-label="Navegación principal">
       <a href="#conversores">Conversores</a><a href="#calculadoras">Calculadoras</a><a href="#utilidades">Utilidades</a>
     </nav>
-    <a class="nav-cta" href="#herramientas">Explorar herramientas <span>↗</span></a>
+    <div class="header-actions"><label class="language-control" for="language-picker"><span>◎</span><select id="language-picker" aria-label="Idioma"><option value="es">ES</option><option value="en">EN</option></select></label><a class="nav-cta" href="#herramientas">Explorar herramientas <span>↗</span></a></div>
     <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
   </header>
   <main id="inicio">
     <section class="hero">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="live-dot"></span> UNA CAJA DE HERRAMIENTAS PARA INTERNET</div>
-        <h1>Lo que necesitas,<br>resuelto en <span>un clic.</span></h1>
-        <p>Conversores, calculadoras y utilidades prácticas. Sin instalaciones, sin rodeos, sin perder el tiempo.</p>
-        <a class="primary-button" href="#herramientas">Encuentra tu herramienta <span>↓</span></a>
-        <div class="hero-proof"><div class="proof-avatars"><span>✳</span><span>↗</span><span>◎</span></div><span>Gratis y listo para usar</span><i></i><span>Todo en un solo lugar</span></div>
+        <div class="eyebrow"><span class="live-dot"></span> <span data-i18n="eyebrow">UNA CAJA DE HERRAMIENTAS PARA INTERNET</span></div>
+        <h1><span class="heroLine1" data-i18n="heroLine1">Lo que necesitas,</span><br><span class="hero-italic" data-i18n="heroLine2">resuelto en un clic.</span></h1>
+        <p data-i18n="heroDescription">Conversores, calculadoras y utilidades prácticas. Sin instalaciones, sin rodeos, sin perder el tiempo.</p>
+        <a class="primary-button" href="#herramientas"><span data-i18n="heroButton">Encuentra tu herramienta</span> <span>↓</span></a>
+        <div class="hero-proof"><div class="proof-avatars"><span>✳</span><span>↗</span><span>◎</span></div><span data-i18n="proofFree">Gratis y listo para usar</span><i></i><span data-i18n="proofAll">Todo en un solo lugar</span></div>
       </div>
       <div class="hero-art" aria-hidden="true">
         <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
@@ -40,27 +40,27 @@
       <div class="hero-index">01 <span>/</span> 03</div>
     </section>
     <section class="category-strip" aria-label="Categorías">
-      <a href="#conversores"><span class="strip-icon mint">⇄</span><span><b>Conversores</b><small>Unidades y formatos</small></span><span class="strip-arrow">↗</span></a>
-      <a href="#calculadoras"><span class="strip-icon peach">＋</span><span><b>Calculadoras</b><small>Números más claros</small></span><span class="strip-arrow">↗</span></a>
-      <a href="#utilidades"><span class="strip-icon lilac">⌘</span><span><b>Utilidades</b><small>Pequeños grandes atajos</small></span><span class="strip-arrow">↗</span></a>
+      <a href="#conversores"><span class="strip-icon mint">⇄</span><span><b data-i18n="converters">Conversores</b><small data-i18n="converterSub">Unidades y formatos</small></span><span class="strip-arrow">↗</span></a>
+      <a href="#calculadoras"><span class="strip-icon peach">＋</span><span><b data-i18n="calculators">Calculadoras</b><small data-i18n="calculatorSub">Números más claros</small></span><span class="strip-arrow">↗</span></a>
+      <a href="#utilidades"><span class="strip-icon lilac">⌘</span><span><b data-i18n="utilities">Utilidades</b><small data-i18n="utilitySub">Pequeños grandes atajos</small></span><span class="strip-arrow">↗</span></a>
     </section>
     <div class="content-wrap" id="herramientas">
       <section class="tools-section" id="conversores">
-        <div class="section-heading"><div><div class="eyebrow section-eyebrow">01 — CONVERSORES</div><h2>Cambia de unidad.<br><span>Sin hacer cuentas.</span></h2></div><p>Una forma rápida de pasar de una unidad a otra. Elige lo que necesitas y deja que los números hagan lo suyo.</p></div>
+        <div class="section-heading"><div><div class="eyebrow section-eyebrow" data-i18n="sectionConv">01 — CONVERSORES</div><h2><span data-i18n="convHead1">Cambia de unidad.</span><br><span data-i18n="convHead2">Sin hacer cuentas.</span></h2></div><p data-i18n="convIntro">Una forma rápida de pasar de una unidad a otra. Elige lo que necesitas y deja que los números hagan lo suyo.</p></div>
         <div class="tools-grid" data-category="conversores"></div>
       </section>
       <section class="tools-section" id="calculadoras">
-        <div class="section-heading"><div><div class="eyebrow section-eyebrow">02 — CALCULADORAS</div><h2>Respuestas claras<br><span>para cuentas cotidianas.</span></h2></div><p>Desde el IVA hasta las calorías: introduce los datos y obtén el resultado en segundos.</p></div>
+        <div class="section-heading"><div><div class="eyebrow section-eyebrow" data-i18n="sectionCalc">02 — CALCULADORAS</div><h2><span data-i18n="calcHead1">Respuestas claras</span><br><span data-i18n="calcHead2">para cuentas cotidianas.</span></h2></div><p data-i18n="calcIntro">Desde el IVA hasta las calorías: introduce los datos y obtén el resultado en segundos.</p></div>
         <div class="tools-grid" data-category="calculadoras"></div>
       </section>
       <section class="tools-section" id="utilidades">
-        <div class="section-heading"><div><div class="eyebrow section-eyebrow">03 — UTILIDADES</div><h2>Pequeñas herramientas.<br><span>Grandes atajos.</span></h2></div><p>Genera, convierte y organiza texto o datos sin instalar nada y desde cualquier dispositivo.</p></div>
+        <div class="section-heading"><div><div class="eyebrow section-eyebrow" data-i18n="sectionUtil">03 — UTILIDADES</div><h2><span data-i18n="utilHead1">Pequeñas herramientas.</span><br><span data-i18n="utilHead2">Grandes atajos.</span></h2></div><p data-i18n="utilIntro">Genera, convierte y organiza texto o datos sin instalar nada y desde cualquier dispositivo.</p></div>
         <div class="tools-grid" data-category="utilidades"></div>
       </section>
-      <aside class="ad-slot" aria-label="Espacio publicitario"><span>ESPACIO PUBLICITARIO</span><b>Un espacio para lo que viene.</b><small>Estamos preparando algo bueno.</small></aside>
+      <aside class="ad-slot" id="ad-slot" aria-label="Espacio publicitario"><span data-i18n="adLabel">PUBLICIDAD</span><script async="async" data-cfasync="false" src="https://pl31756498.profitableratecpmnetwork.com/f6844b45848adac4c13046aac51ec1f8/invoke.js"></script><div id="container-f6844b45848adac4c13046aac51ec1f8"></div></aside>
     </div>
-    <section class="closing"><div class="eyebrow">MENOS VUELTAS. MÁS HECHO.</div><h2>¿Qué necesitas<br><span>resolver hoy?</span></h2><a class="primary-button" href="#herramientas">Ver todas las herramientas <span>↑</span></a></section>
+    <section class="closing"><div class="eyebrow" data-i18n="closingEyebrow">MENOS VUELTAS. MÁS HECHO.</div><h2><span data-i18n="closingHead1">¿Qué necesitas</span><br><span data-i18n="closingHead2">resolver hoy?</span></h2><a class="primary-button" href="#herramientas"><span data-i18n="closingButton">Ver todas las herramientas</span> <span>↑</span></a></section>
   </main>
-  <footer><a class="brand" href="#inicio"><span class="brand-icon">t<span>✳</span></span> todotool<span class="brand-dot">.</span></a><span>Herramientas sencillas para hacerte el día más fácil.</span><span>© 2026 TodoTool</span></footer>
+  <footer><a class="brand" href="#inicio"><span class="brand-icon">t<span>✳</span></span> todotool<span class="brand-dot">.</span></a><span data-i18n="footerTagline">Herramientas sencillas para hacerte el día más fácil.</span><span>© 2026 TodoTool</span></footer>
 </body>
 </html>
